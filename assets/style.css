@@ -103,6 +103,9 @@ a:hover::after {
   opacity: 1;
   transform: scaleX(1);
 }
+.line-wrapper.is-inview {
+  margin-bottom: 50px;
+}
 .wrapper {
   perspective: 900px;
 }
