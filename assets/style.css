@@ -253,12 +253,35 @@ header .scroll-wrapper {
 }
 #p2 {
   margin: 0 6vw 0 auto;
+  font-size: 18px;
 }
 #p3 {
-  margin-left: 8vw;
+  margin-left: 0 8vw 0 auto;
+  font-size: 18px;
 }
 #p1 {
-  margin-left: 2vw;
+  margin-left: 0 2vw 0 auto;
+  font-size: 18px;
+}
+#p1 p,
+#p2 p,
+#p3 p {
+  font-size: 18px;
+}
+
+@media screen and (max-width: 600px) {
+  #p1 p,
+  #p2 p,
+  #p3 p {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 600px) {
+  #p1 a,
+  #p2 a,
+  #p3 a {
+    font-size: 12px;
+  }
 }
 .project img {
   transition: 0.4s ease-out;
@@ -291,21 +314,21 @@ header .scroll-wrapper {
   color: aliceblue;
 }
 footer {
-  margin: 150px 0 120px;
+  margin: 100px 0px 120px;
 }
 footer p {
   font-size: calc(1rem + 2vw);
   margin: 25px 0;
   text-align: center;
 }
-#l2 {
+/* #l2 {
   transition-delay: 1.2s;
 }
 #l3 {
   transition-delay: 1.6s;
-}
+} */
 footer a {
   font-family: "font-bold", serif;
-  color: rgb(29, 28, 28);
+  color: rgb(92, 48, 236);
   font-size: calc(1rem + 2vw);
 }
